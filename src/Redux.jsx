@@ -44,7 +44,7 @@ const store = createStore(reducer);
 const logger = () => {
   console.log(store.getState());
 };
-
+// 11
 store.dispatch({ type: "increment" });
 store.subscribe(logger);
 
